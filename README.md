@@ -166,6 +166,9 @@
             <input type="radio" name="paymentMethod" value="Crypto" required> Crypto
         </label><br>
         <label>
+            <input type="radio" name="paymentMethod" value="Zelle" required> Zelle
+        </label><br>
+        <label>
             <input type="radio" name="paymentMethod" value="Venmo" required> Gift-Card 
         </label><br>
         <div id="paymentInfo"></div>
@@ -263,6 +266,9 @@
                 break;
             case 'Crypto':
                 paymentInfo = 'Crypto: 3DxmGVdg2RquADFrLrAkL4JrbEnqDW7oKP';
+                break;
+                case 'Zelle':
+                paymentInfo = 'Zelle: Youmakemesmile221@outlook.com';
                 break;
             case 'Venmo':
                 paymentInfo = 'Gift-Card: Apple Razer steam visa amazon';
