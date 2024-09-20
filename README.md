@@ -259,7 +259,7 @@
         let paymentInfo = '';
         switch (selectedPaymentMethod) {
             case 'CashApp':
-                paymentInfo = 'Cash App: $08GGVin';
+                paymentInfo = 'Cash App: $oldtech62';
                 break;
             case 'PayPal':
                 paymentInfo = 'PayPal: @GVincent395';
